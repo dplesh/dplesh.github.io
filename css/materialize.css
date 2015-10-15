@@ -6355,10 +6355,11 @@ input[type=text], input[type=password], input[type=email], input[type=url], inpu
   position: relative;
   margin-top: 1rem; }
   .input-field label {
-    color: white;
+    direction: rtl;
+      color: white;
+    right:0;
     position: absolute;
     top: 0.9rem;
-    left: 0.75rem;
     font-size: 1.5rem;
     cursor: text;
     -webkit-transition: .2s ease-out;
@@ -6385,7 +6386,7 @@ input[type=text], input[type=password], input[type=email], input[type=url], inpu
     .input-field .prefix.active {
       color: #26a69a; }
   .input-field .prefix ~ input, .input-field .prefix ~ textarea {
-    margin-left: 3rem;
+    margin-left: 4rem;
     width: 92%;
     width: calc(100% - 3rem); }
   .input-field .prefix ~ textarea {
