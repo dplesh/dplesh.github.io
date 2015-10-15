@@ -503,3 +503,49 @@ footer.page-footer {
     bottom: 30px;
   }
 }
+
+.message_title {
+	font-size:40px;
+	color: #2196F3;
+}
+
+.message_content{
+	font-size:18px;
+	margin:2px;
+}
+
+.title_hr{
+	height:5px;
+	border:none;
+	color:#87f7b8;
+	background-color:#87f7b8;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+
+.green_hr{
+	height:2px;
+	border:none;
+	color:#87f7b8;
+	background-color:#87f7b8;
+	margin-bottom:1px;
+
+}
+
+.orange_hr{
+	height:2px;
+	border:none;
+	color:#f7b887;
+	background-color:#f7b887;
+	margin-bottom:1px;
+
+}
+
+.purple_hr{
+	height:2px;
+	border:none;
+	color:#b887f7;
+	background-color:#b887f7;
+	margin-bottom:1px;
+
+}
