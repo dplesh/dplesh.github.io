@@ -518,6 +518,10 @@ footer.page-footer {
 	margin:5px;
 }
 
+.full-height {
+    height: 100%;
+}
+
 .title_hr{
     height:5px;
 	border:none;
