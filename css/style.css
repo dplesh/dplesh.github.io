@@ -572,3 +572,9 @@ footer.page-footer {
 	margin-bottom:1px;
     min-width: 150px;
 }
+
+.content {
+    position: relative;
+    text-align: center;
+    margin: 0px auto;
+}
