@@ -562,6 +562,16 @@ footer.page-footer {
 
 }
 
+.red_hr{
+	height:3px;
+	border:none;
+	color:#E53935;
+	background-color:#E53935;
+	margin-bottom:1px;
+    min-width: 110px;
+
+}
+
 .open_hr{
     
     height:5px;
