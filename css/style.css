@@ -523,10 +523,10 @@ footer.page-footer {
 }
 
 ::selection {
-  background: #b887f7; /* WebKit/Blink Browsers */
+  background: #33cbcf; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: #b887f7; /* Gecko Browsers */
+  background: #33cbcf; /* Gecko Browsers */
 }
 
 .title_hr{
