@@ -522,6 +522,13 @@ footer.page-footer {
     height: 100%;
 }
 
+::selection {
+  background: #0beca0; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #0beca0; /* Gecko Browsers */
+}
+
 .title_hr{
     height:5px;
 	border:none;
