@@ -1,0 +1,22 @@
+var $intern_47 = 'runCallbacks12';
+function com_google_gwt_lang_asyncloaders_AsyncLoader12_AsyncLoader12__V(){
+}
+
+function com_google_gwt_lang_asyncloaders_AsyncLoader12_onLoad__V(){
+  com_google_gwt_lang_asyncloaders_AsyncLoader12_instance = new com_google_gwt_lang_asyncloaders_AsyncLoader12_AsyncLoader12__V;
+  com_google_gwt_core_client_impl_AsyncFragmentLoader_$fragmentHasLoaded__Lcom_google_gwt_core_client_impl_AsyncFragmentLoader_2IV((com_google_gwt_core_client_impl_AsyncFragmentLoader_$clinit__V() , com_google_gwt_core_client_impl_AsyncFragmentLoader_BROWSER_1LOADER), 12);
+  !!$stats && $stats(com_google_gwt_core_client_impl_AsyncFragmentLoader$StandardLogger_$createStatsEvent__Lcom_google_gwt_core_client_impl_AsyncFragmentLoader$StandardLogger_2Ljava_lang_String_2Ljava_lang_String_2IILcom_google_gwt_core_client_JavaScriptObject_2($intern_47, $intern_35, -1, -1));
+  com_google_gwt_lang_asyncloaders_AsyncLoader12_instance.runCallbacks__V();
+  !!$stats && $stats(com_google_gwt_core_client_impl_AsyncFragmentLoader$StandardLogger_$createStatsEvent__Lcom_google_gwt_core_client_impl_AsyncFragmentLoader$StandardLogger_2Ljava_lang_String_2Ljava_lang_String_2IILcom_google_gwt_core_client_JavaScriptObject_2($intern_47, $intern_36, -1, -1));
+}
+
+function com_google_gwt_lang_asyncloaders_AsyncLoader12(){
+}
+
+_ = com_google_gwt_lang_asyncloaders_AsyncLoader12_AsyncLoader12__V.prototype = com_google_gwt_lang_asyncloaders_AsyncLoader12.prototype = new java_lang_Object;
+_.runCallbacks__V = function com_google_gwt_lang_asyncloaders_AsyncLoader12_runCallbacks__V(){
+}
+;
+_.java_lang_Object_castableTypeMap$ = {};
+var com_google_gwt_lang_asyncloaders_AsyncLoader12_instance = null;
+$entry(com_google_gwt_lang_asyncloaders_AsyncLoader12_onLoad__V)();

@@ -1,0 +1,195 @@
+var $intern_2510 = '<\/strong> d\xE9passe la taille limite d\u2019envoi (', $intern_2513 = '<\/strong> n\u2019est pas autoris\xE9 \xE0 l\u2019envoi.', $intern_2502 = 'Aidez-nous \xE0 corriger ce probl\xE8me et <a target="_blank" href="http://support.sitecake.com/anonymous_requests/new">dites-nous ce qui s\u2019est pass\xE9<\/a>. Merci d\u2019inclure le rapport d\u2019erreur ci-dessous. Pour continuer \xE0 \xE9diter, vous n\u2019avez qu\u2019a <a href="javascript:location.reload()">recharger<\/a> la page.', $intern_2529 = 'AsyncLoader5', $intern_2501 = 'CMS a rencontr\xE9 un probl\xE8me!', $intern_2518 = 'Cliquer pour ajouter du code HTML', $intern_2517 = 'Cliquer pour int\xE9grer une animation Flash', $intern_2519 = 'Cliquer pour int\xE9grer une carte Google map', $intern_2520 = 'Cliquer pour int\xE9grer une vid\xE9o', $intern_2515 = 'Cliquer pour \xE9diter', $intern_2527 = 'Envoi en cours:', $intern_2526 = 'Erreur inconnue', $intern_2508 = 'Impossible de cr\xE9er un \xE9l\xE9ment de carte depuis le code d\u2019insertion fourni.', $intern_2514 = 'Impossible de cr\xE9er un \xE9l\xE9ment vid\xE9o depuis l\u2019URL ou le code d\u2019insertion fourni.', $intern_2511 = 'La s\xE9lection de fichier est invalide: ', $intern_2509 = 'La taille du fichier s\xE9lectionn\xE9 <strong>', $intern_2503 = 'La tentative de sauvegarde des modification \xE0 echou\xE9. Merci de bien vouloir retenter...', $intern_2512 = 'Le type du fichier s\xE9lectionn\xE9 <strong>', $intern_2516 = 'Lire la suite', $intern_2530 = 'MessagesFr_', $intern_2507 = 'Param\xE8tre de configuration invalide trouv\xE9 <strong>', $intern_2521 = 'Publier', $intern_2523 = 'Selectionner les fichier(s) \xE0 envoyer', $intern_2524 = 'Selectionner les image(s) \xE0 envoyer', $intern_2522 = 'Selectionner les son(s) \xE0 envoyer', $intern_2525 = 'Selectionner les video(s) \xE0 envoyer', $intern_2500 = 'Style par d\xE9faut', $intern_2499 = 'Toutes les modifications n\u2019ont pas encore \xE9t\xE9 toutes sauvegard\xE9es. \xCAtes-vos s\xFBr(e) de vouloir continuer?', $intern_2506 = 'Toutes les tentatives de sauvegarde des derni\xE8res modifications ont \xE9chou\xE9.', $intern_2504 = 'Une erreur s\u2019est produite pendant la publication du contenu.', $intern_2505 = 'Une erreur s\u2019est produite pendant l\u2019envoi du fichier.', $intern_2528 = 'Une nouvelle version de CMS est <a href=http://sitecake.com/download.html target=_blank>disponible<\/a> (', $intern_2498 = 'runCallbacks5';
+function com_google_gwt_lang_asyncloaders_AsyncLoader5_$runCallbacks__Lcom_google_gwt_lang_asyncloaders_AsyncLoader5_2V(){
+  var $e0, e, handler, next;
+  while (com_google_gwt_lang_asyncloaders_AsyncLoader5_callbacksHead) {
+    handler = com_google_gwt_core_client_GWT_sUncaughtExceptionHandler;
+    next = com_google_gwt_lang_asyncloaders_AsyncLoader5_callbacksHead;
+    com_google_gwt_lang_asyncloaders_AsyncLoader5_callbacksHead = com_google_gwt_lang_asyncloaders_AsyncLoader5_callbacksHead.com_google_gwt_lang_asyncloaders_AsyncLoader5_1_1Callback_next;
+    !com_google_gwt_lang_asyncloaders_AsyncLoader5_callbacksHead && (com_google_gwt_lang_asyncloaders_AsyncLoader5_callbacksTail = null);
+    if (!handler) {
+      com_sitecake_contentmanager_client_resources_LocaleProxyImpl$5_$onSuccess__Lcom_sitecake_contentmanager_client_resources_LocaleProxyImpl$5_2V(next.com_google_gwt_lang_asyncloaders_AsyncLoader5_1_1Callback_callback);
+    }
+     else {
+      try {
+        com_sitecake_contentmanager_client_resources_LocaleProxyImpl$5_$onSuccess__Lcom_sitecake_contentmanager_client_resources_LocaleProxyImpl$5_2V(next.com_google_gwt_lang_asyncloaders_AsyncLoader5_1_1Callback_callback);
+      }
+       catch ($e0) {
+        $e0 = com_google_gwt_lang_Exceptions_caught__Ljava_lang_Object_2Ljava_lang_Object_2($e0);
+        if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2IZ($e0, 67)) {
+          e = $e0;
+          handler.onUncaughtException__Ljava_lang_Throwable_2V(e);
+        }
+         else 
+          throw $e0;
+      }
+    }
+  }
+}
+
+function com_google_gwt_lang_asyncloaders_AsyncLoader5_AsyncLoader5__V(){
+}
+
+function com_google_gwt_lang_asyncloaders_AsyncLoader5_onLoad__V(){
+  com_google_gwt_lang_asyncloaders_AsyncLoader5_instance = new com_google_gwt_lang_asyncloaders_AsyncLoader5_AsyncLoader5__V;
+  com_google_gwt_core_client_impl_AsyncFragmentLoader_$fragmentHasLoaded__Lcom_google_gwt_core_client_impl_AsyncFragmentLoader_2IV((com_google_gwt_core_client_impl_AsyncFragmentLoader_$clinit__V() , com_google_gwt_core_client_impl_AsyncFragmentLoader_BROWSER_1LOADER), 5);
+  !!$stats && $stats(com_google_gwt_core_client_impl_AsyncFragmentLoader$StandardLogger_$createStatsEvent__Lcom_google_gwt_core_client_impl_AsyncFragmentLoader$StandardLogger_2Ljava_lang_String_2Ljava_lang_String_2IILcom_google_gwt_core_client_JavaScriptObject_2($intern_2498, $intern_149, -1, -1));
+  com_google_gwt_lang_asyncloaders_AsyncLoader5_instance.runCallbacks__V();
+  !!$stats && $stats(com_google_gwt_core_client_impl_AsyncFragmentLoader$StandardLogger_$createStatsEvent__Lcom_google_gwt_core_client_impl_AsyncFragmentLoader$StandardLogger_2Ljava_lang_String_2Ljava_lang_String_2IILcom_google_gwt_core_client_JavaScriptObject_2($intern_2498, $intern_2355, -1, -1));
+}
+
+function com_google_gwt_lang_asyncloaders_AsyncLoader5(){
+}
+
+_ = com_google_gwt_lang_asyncloaders_AsyncLoader5_AsyncLoader5__V.prototype = com_google_gwt_lang_asyncloaders_AsyncLoader5.prototype = new java_lang_Object;
+_.getClass__Ljava_lang_Class_2$ = function com_google_gwt_lang_asyncloaders_AsyncLoader5_getClass__Ljava_lang_Class_2(){
+  return com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1asyncloaders_1AsyncLoader5_12_1classLit;
+}
+;
+_.runCallbacks__V = function com_google_gwt_lang_asyncloaders_AsyncLoader5_runCallbacks__V(){
+  com_google_gwt_lang_asyncloaders_AsyncLoader5_$runCallbacks__Lcom_google_gwt_lang_asyncloaders_AsyncLoader5_2V();
+}
+;
+_.java_lang_Object_castableTypeMap$ = {};
+function com_sitecake_contentmanager_client_resources_LocaleProxyImpl$5_$onSuccess__Lcom_sitecake_contentmanager_client_resources_LocaleProxyImpl$5_2V(this$static){
+  this$static.com_sitecake_contentmanager_client_resources_LocaleProxyImpl$5_this$0.com_sitecake_contentmanager_client_resources_LocaleProxyImpl_messages = new com_sitecake_contentmanager_client_resources_MessagesFr_1_MessagesFr_1__V;
+  com_sitecake_commons_client_util_SynchronizationBarrier_$release__Lcom_sitecake_commons_client_util_SynchronizationBarrier_2V(this$static.com_sitecake_contentmanager_client_resources_LocaleProxyImpl$5_this$0.com_sitecake_contentmanager_client_resources_LocaleProxyImpl_synchronizationBarrier);
+}
+
+function com_sitecake_contentmanager_client_resources_MessagesFr_1_MessagesFr_1__V(){
+}
+
+function com_sitecake_contentmanager_client_resources_MessagesFr_1(){
+}
+
+_ = com_sitecake_contentmanager_client_resources_MessagesFr_1_MessagesFr_1__V.prototype = com_sitecake_contentmanager_client_resources_MessagesFr_1.prototype = new java_lang_Object;
+_.confirmUnsafeLogout__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_confirmUnsafeLogout__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2499).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.defaultStyle__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_defaultStyle__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2500).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.errorMessage1__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_errorMessage1__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2501).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.errorMessage2__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_errorMessage2__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2502).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.failedAttemptToSaveContent__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_failedAttemptToSaveContent__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2503).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.failedToPublishContent__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_failedToPublishContent__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2504).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.failedToUploadFiles__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_failedToUploadFiles__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2505).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.getClass__Ljava_lang_Class_2$ = function com_sitecake_contentmanager_client_resources_MessagesFr_1_getClass__Ljava_lang_Class_2(){
+  return com_google_gwt_lang_ClassLiteralHolder_Lcom_1sitecake_1contentmanager_1client_1resources_1MessagesFr_11_12_1classLit;
+}
+;
+_.giveUpContentSaving__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_giveUpContentSaving__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2506).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.invalidConfigParameter__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_invalidConfigParameter__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2(arg0, arg1){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2507), arg0), $intern_163), arg1), $intern_2365).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.invalidMapInputCode__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_invalidMapInputCode__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2508).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.invalidServiceResponse__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_invalidServiceResponse__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2367).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.invalidUploadFileMaxSize__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_invalidUploadFileMaxSize__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2(arg0, arg1){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2509), arg0), $intern_2510), arg1), $intern_2370).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.invalidUploadFileSelection__Ljava_lang_String_2Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_invalidUploadFileSelection__Ljava_lang_String_2Ljava_lang_String_2(arg0){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2511), arg0), $intern_281).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.invalidUploadFileType__Ljava_lang_String_2Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_invalidUploadFileType__Ljava_lang_String_2Ljava_lang_String_2(arg0){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2512), arg0), $intern_2513).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.invalidVideoInputCode__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_invalidVideoInputCode__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2514).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.linkEditorMailtoLink__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_linkEditorMailtoLink__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2447).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.linkEditorWebLink__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_linkEditorWebLink__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2448).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.newTextItemDefaultContent__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_newTextItemDefaultContent__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2515).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.notificationDialogReadMore__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_notificationDialogReadMore__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2516).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.pasteFlash__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_pasteFlash__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2517).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.pasteHtml__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_pasteHtml__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2518).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.pasteMap__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_pasteMap__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2519).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.pasteVideo__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_pasteVideo__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2520).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.publishButton__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_publishButton__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2521).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.selectFilesToUploadAudio__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_selectFilesToUploadAudio__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2522).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.selectFilesToUploadGeneric__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_selectFilesToUploadGeneric__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2523).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.selectFilesToUploadImage__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_selectFilesToUploadImage__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2524).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.selectFilesToUploadVideo__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_selectFilesToUploadVideo__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2525).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.uncaughtException__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_uncaughtException__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2526).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.uploadingFiles__Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_uploadingFiles__Ljava_lang_String_2(){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2527).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.versionUpdateMessage__Ljava_lang_String_2Ljava_lang_String_2 = function com_sitecake_contentmanager_client_resources_MessagesFr_1_versionUpdateMessage__Ljava_lang_String_2Ljava_lang_String_2(arg0){
+  return java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(java_lang_StringBuffer_$append__Ljava_lang_StringBuffer_2Ljava_lang_String_2Ljava_lang_StringBuffer_2(new java_lang_StringBuffer_StringBuffer__V, $intern_2528), arg0), $intern_2370).java_lang_StringBuffer_impl.com_google_gwt_core_client_impl_StringBufferImplAppend_string;
+}
+;
+_.java_lang_Object_castableTypeMap$ = {};
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1asyncloaders_1AsyncLoader5_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_1728, $intern_2529), com_google_gwt_lang_ClassLiteralHolder_Lcom_1sitecake_1contentmanager_1client_1resources_1MessagesFr_11_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_2116, $intern_2530);
+$entry(com_google_gwt_lang_asyncloaders_AsyncLoader5_onLoad__V)();
