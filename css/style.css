@@ -529,6 +529,14 @@ footer.page-footer {
   background: #33cbcf; /* Gecko Browsers */
 }
 
+.whiteback::selection {
+  background: #33cbcf; /* WebKit/Blink Browsers */
+}
+
+.whiteback::-moz-selection {
+  background: #33cbcf; /* Gecko Browsers */
+}
+
 .title_hr{
     height:5px;
 	border:none;
@@ -559,6 +567,9 @@ footer.page-footer {
 
 }
 
+.tooltipped{
+    color:white;
+}
 .purple_hr{
 	height:3px;
 	border:none;
