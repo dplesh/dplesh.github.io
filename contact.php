@@ -112,6 +112,6 @@ $headers = 'From: admin@op.com'."\r\n".
  
 @mail($email_to, $email_subject, $email_message, $headers);  
  
-header('Location:indexs.html#contact');
+header('Location:thank-you.html#contact');
 
 ?>
