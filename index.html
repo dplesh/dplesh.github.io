@@ -247,37 +247,47 @@
             <!--Parallax-->
             <div class="parallax-container" id="contact">
                 <div class="parallax"><img src="img/nophone_dark.jpg"></div>
-                <h2 class="center header text_h2 white-text" dir="rtl" style="margin-bottom:5px; margin-top:10px; font-size:40px; line-height:43px;">
-                    חושב שיש לך את זה? דבר איתנו! 
-                </h2>
-                <p dir="rtl" class="center white-text" style="font-size: 18px; margin: 2px; line-height: 28px;"> חושבים שיש לכם נושא מעניין להרצות עליו?<br> או מעוניינים לקחת חלק בהובלת Open Mind?<br> מוזמנים להשאיר פרטים ונחזור אליכם!
-                <p>
-                    <!-- copy of form code from Contact Us -->
-                <div class="col l6 s12 container">
-                    <form class="col s12" action="contact.php" method="post">
-                        <div class="row" style="margin-top:-15px;">
-                            <div class="input-field col s6">
-                                <i class="mdi-action-account-circle prefix white-text"></i>
-                                <input id="icon_prefix" name="name" type="text" class="validate white-text" dir="rtl" required>
-                                <label for="icon_prefix" class="white-text">שם מלא</label>
+                <div id="form_div">
+                    <h2 class="center header text_h2 white-text" dir="rtl" style="margin-bottom:5px; margin-top:10px; font-size:40px; line-height:43px;">
+                        חושב שיש לך את זה? דבר איתנו! 
+                    </h2>
+                    <p dir="rtl" class="center white-text" style="font-size: 18px; margin: 2px; line-height: 28px;"> חושבים שיש לכם נושא מעניין להרצות עליו?<br> או מעוניינים לקחת חלק בהובלת Open Mind?<br> מוזמנים להשאיר פרטים ונחזור אליכם!
+                    <p>
+                        <!-- copy of form code from Contact Us -->
+                    <div class="col l6 s12 container">
+                        <form id="formy" class="col s12" action="contact.php" method="post">
+                            <div class="row" style="margin-top:-15px;">
+                                <div class="input-field col s6">
+                                    <i class="mdi-action-account-circle prefix white-text"></i>
+                                    <input id="icon_prefix" name="name" type="text" class="validate white-text" dir="rtl" required>
+                                    <label for="icon_prefix" class="white-text">שם מלא</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <i class="mdi-communication-phone prefix white-text"></i>
+                                    <input id="icon_email" name="phone" type="tel" class="validate white-text" pattern="[0-9]*.{7,10}" maxlength="10"  dir="rtl" required>
+                                    <label for="icon_email" class="white-text">מס' טלפון</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <i class="mdi-editor-mode-edit prefix white-text"></i>
+                                    <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text" dir="rtl" required></textarea>
+                                    <label for="icon_prefix2" class="white-text">פירוט</label>
+                                </div>
+                                <div class="col offset-s7 s5">
+                                    <button class="btn waves-effect waves-light red darken-1" type="submit">שלח
+                                    <i class="mdi-content-send right white-text"></i>
+                                    </button>
+                                </div>
                             </div>
-                            <div class="input-field col s6">
-                                <i class="mdi-communication-phone prefix white-text"></i>
-                                <input id="icon_email" name="phone" type="tel" class="validate white-text" pattern="[0-9]*.{7,10}" maxlength="10"  dir="rtl" required>
-                                <label for="icon_email" class="white-text">מס' טלפון</label>
-                            </div>
-                            <div class="input-field col s12">
-                                <i class="mdi-editor-mode-edit prefix white-text"></i>
-                                <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text" dir="rtl" required></textarea>
-                                <label for="icon_prefix2" class="white-text">פירוט</label>
-                            </div>
-                            <div class="col offset-s7 s5">
-                                <button class="btn waves-effect waves-light red darken-1" type="submit">שלח
-                                <i class="mdi-content-send right white-text"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
+                </div>
+                <div id="replace_div" style="display: none;">
+                    <br><br><br><br>
+                    <h2 class="center header text_h2 white-text" dir="rtl" style="margin-bottom:5px; margin-top:10px; font-size:40px; line-height:43px;">
+                        תודה שיצרתם עימנו קשר, נחזור אליכם בקרוב!
+                    </h2>
+                    <h2 class="center header text_h2 white-text" dir="rtl" style="font-size:35px; line-height:30px;">  ניתן לפנות אלינו גם דרך המייל: </h2>
+                    <h5 class="center header text_h2 white-text" dir="rtl" style="font-size:30px; line-height:30px;"> Open.Mind@outlook.co.il </h5>
                 </div>
             </div>
             <!--Team-->
@@ -373,13 +383,12 @@
                     Made with
                     </span>
                     <a class="tooltipped" data-position="top" data-delay="50" data-tooltip="Gil Netes">
-
                     <img src="img/heart.svg" width="14px" height="14px" style="margin-bottom:-2px;">
                     </a>
                     <span style="display: inline-block;">
                     by ¯\_
-                        <a class="tooltipped" data-position="top" data-delay="50" data-tooltip="Daniel Pleshkov">(ツ)</a>
-                            _/¯ Designs
+                    <a class="tooltipped" data-position="top" data-delay="50" data-tooltip="Daniel Pleshkov">(ツ)</a>
+                    _/¯ Designs
                     </span>
                 </div>
             </footer>
